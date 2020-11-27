@@ -5,24 +5,56 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
 <body>
   <article>
-    <div class="swiper-container article-container">
-      <ul class="swiper-wrapper">
-        <li class="swiper-slide"></li>
-        <li class="swiper-slide"></li>
-        <li class="swiper-slide"></li>
-        <li class="swiper-slide"></li>
-        <li class="swiper-slide"></li>
-        <li class="swiper-slide"></li>
-      </ul>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
+    <div class="article-slide">
+      <div class="swiper-container article-container">
+        <ul class="swiper-wrapper article-wrapper">
+          <li class="swiper-slide">a</li>
+          <li class="swiper-slide">b</li>
+          <li class="swiper-slide">c</li>
+          <li class="swiper-slide">d</li>
+          <li class="swiper-slide">e</li>
+          <li class="swiper-slide">f</li>
+        </ul>
+        <div class="swiper-pagination article-pagination"></div>
+      </div>
+      <div class="swiper-button-next article-next"></div>
+      <div class="swiper-button-prev article-prev"></div>
     </div>
   </article>
 
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      // init: false,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        '@0.00': {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        '@0.75': {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        '@1.00': {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        '@1.50': {
+          slidesPerView: 4,
+          spaceBetween: 17,
+        },
+      }
+    });
+  </script>
 </body>
 </html>
