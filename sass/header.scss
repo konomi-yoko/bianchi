@@ -1,7 +1,32 @@
+.header{
+ height: 1000px;
+}
+.header_wrapper{
+ display: flex;
+ justify-content:space-between;
+}
 .header_site_title img{
  width: 160px;
- margin: 15px;
+ margin: 20px;
+}
+.wrapper_items{
+ display: flex;
 }
 .wrapper_icon img{
- width: 100%;
+ width: 70px;
+ height: 70px;
+ margin-right: 3px;
+}
+.wrapper_onlinestore img{
+ width: 280px;
+ height: 70px;
+}
+.header_navigation ul{
+    display: flex;
+    font-size: 15px;
+    list-style: none;
+    justify-content: space-around;
+    background-color: cadetblue;
+    font-weight: bold;
+    margin: 0px;
 }
