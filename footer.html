@@ -12,12 +12,54 @@
     <div class="article-slide">
       <div class="swiper-container article-container">
         <ul class="swiper-wrapper article-wrapper">
-          <li class="swiper-slide">a</li>
-          <li class="swiper-slide">b</li>
-          <li class="swiper-slide">c</li>
-          <li class="swiper-slide">d</li>
-          <li class="swiper-slide">e</li>
-          <li class="swiper-slide">f</li>
+          <li class="swiper-slide">
+            <h2 class="article-race">RACE</h2>
+            <img src="img/article-01.jpg">
+            <h3>2020.11.10 Tue</h3>
+            <h4>ビアンキ　ログリッチ選手と共にブエルタを連覇</h4>
+            <p class="article-text">プリモシュ・ログリッチ選手が、ブエルタ・ア・エスパーニャ連覇を達成ビアンキのマージナル・ゲイン・アプローチが、チーム ユンボ・ヴィズマに栄光をもたらす2020年11月8日、昨年の優勝に続き、ビアンキはログリッチ選手と共にマドリードに凱旋しました。</p>
+            <div><button>MORE DETAILS</button></div>
+          </li>
+          <li class="swiper-slide">
+            <h2 class="article-bikes"></h2>
+            <img src="img/article-02.jpg">
+            <h3></h3>
+            <h4></h4>
+            <p class="article-text"></p>
+            <div class="clearfix"><button>MORE DETAILS</button></div>
+          </li>
+          <li class="swiper-slide">
+            <h2 class="article-store"></h2>
+            <img src="img/article-03.jpg">
+            <h3></h3>
+            <h4></h4>
+            <p class="article-text"></p>
+            <div><button>MORE DETAILS</button></div>
+          </li>
+          <li class="swiper-slide">
+            <h2 class="article-event"></h2>
+            <img src="img/article-04.jpg">
+            <h3></h3>
+            <h4></h4>
+            <p class="article-text"></p>
+            <div><button>MORE DETAILS</button></div>
+          </li>
+          <li class="swiper-slide">
+            <h2 class="article-race"></h2>
+            <img src="img/article-05.jpg">
+            <h3></h3>
+            <h4></h4>
+            <p class="article-text"></p>
+            <div><button>MORE DETAILS</button></div>
+          </li>
+          <li class="swiper-slide">
+            <h2 class="article-info"></h2>
+            <img src="img/article-06.jpg">
+            <h3></h3>
+            <h4></h4>
+            <p class="article-text"></p>
+            <div><button>MORE DETAILS</button></div>
+          </li>
         </ul>
         <div class="swiper-pagination article-pagination"></div>
       </div>
@@ -32,6 +74,10 @@
       slidesPerView: 1,
       spaceBetween: 10,
       // init: false,
+      navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+      },
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -45,10 +91,7 @@
           slidesPerView: 2,
           spaceBetween: 20,
         },
-        '@1.00': {
-          slidesPerView: 3,
-          spaceBetween: 40,
-        },
+
         '@1.50': {
           slidesPerView: 4,
           spaceBetween: 17,
