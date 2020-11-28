@@ -5,6 +5,7 @@
 .header_wrapper {
   display: flex;
   justify-content: space-between;
+  height: 75px;
 }
 
 .header_site_title img {
@@ -29,10 +30,25 @@
 
 .header_navigation ul {
   display: flex;
-  font-size: 15px;
+  font-size: 18px;
   list-style: none;
   justify-content: space-around;
   background-color: cadetblue;
   font-weight: bold;
-  margin: 0px;
+  margin: 0px 0px 10px 0px;
+  height: 30px;
+}
+
+.header_navigation ul li {
+  padding: 2px;
+}
+
+.swiper-container {
+  width: 1475px;
+  height: 800px;
+}
+
+.swiper-container img {
+  width: 1475px;
+  height: 800px;
 }
