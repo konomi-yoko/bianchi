@@ -1,17 +1,31 @@
+@charset "UTF-8";
 article {
   position: relative;
-  height: 100%;
   background: #000;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Verdana","メイリオ","Open sans","sans-serif";
   font-size: 14px;
   color: #fff;
-  margin: 0;
-  padding: 0;
+  padding-bottom: 20px;
+}
+
+article button {
+  padding: 15px 20px;
+  color: #87dfd3;
+  background-color: #313131;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
 }
 
 .article-slide {
   width: 1140px;
-  height: 600px;
   margin: 0 auto;
   position: relative;
 }
@@ -78,6 +92,7 @@ article {
   border-radius: 3px;
   font-size: 12px;
   font-weight: bold;
+  line-height: 1;
   letter-spacing: 1px;
   color: #fff;
   margin: 10px;
