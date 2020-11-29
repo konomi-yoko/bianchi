@@ -48,7 +48,7 @@
 .swiper-container img {
   max-width: 100%;
   height: auto;
-  margin-left: 35px;
+  margin-left: 40px;
 }
 
 .swiper-container .swiper-pagination {
@@ -169,7 +169,7 @@
     width: 250px;
   }
   .header_navigation ul {
-    height: 60px;
+    height: 45px;
   }
   .swiper-container img {
     margin-left: 0px;
