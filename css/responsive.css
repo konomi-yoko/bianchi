@@ -9,7 +9,7 @@
   .menu ul {
     height: 45px;
   }
-  .slider-container img {
+  .swiper-container .main_pic img {
     margin-left: 0px;
   }
   #nav-open {
@@ -40,11 +40,11 @@
   .menu {
     display: none;
   }
-  .slider-container {
+  .swiper-container .main_pic {
     widows: 375px;
     height: 200px;
   }
-  .slider-container img {
+  .swiper-container .main_pic img {
     width: 375px;
     height: 200px;
     margin-left: 0px;
