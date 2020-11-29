@@ -15,6 +15,12 @@
   #nav-open {
     display: none;
   }
+  .article-slide {
+    width: 640px;
+  }
+  .article-slide .article-container {
+    width: 460px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -51,5 +57,23 @@
   }
   #nav-open {
     display: block;
+  }
+  .article-slide {
+    width: 220px;
+  }
+  .article-slide .article-container {
+    width: 220px;
+  }
+  .article-slide .article-next, .article-slide .article-prev {
+    display: none;
+  }
+  .footer-copylight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer-copylight li:first-child {
+    margin-bottom: 10px;
   }
 }

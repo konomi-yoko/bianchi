@@ -18,6 +18,12 @@
     #nav-open {
         display:none;
       }
+      .article-slide {
+        width: 640px;
+        .article-container {
+          width: 460px;
+          }
+      }
 }
 
 //  スマホ対応
@@ -56,4 +62,30 @@
     #nav-open {
         display:block;
       }
-}
+
+      .article-slide {
+        width: 220px;
+        .article-container {
+          width: 220px;
+          }
+    
+        .article-next,.article-prev {
+          display: none;
+        }
+    
+      }
+  
+  
+      .footer-copylight {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+
+          li:first-child {
+              margin-bottom: 10px;
+          }
+        
+          }
+    }
+

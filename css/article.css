@@ -150,24 +150,3 @@ article button {
 .article-slide .article-next:after, .article-slide .article-prev:after {
   content: none;
 }
-
-@media screen and (max-width: 960px) {
-  .article-slide {
-    width: 640px;
-  }
-  .article-slide .article-container {
-    width: 460px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .article-slide {
-    width: 220px;
-  }
-  .article-slide .article-container {
-    width: 220px;
-  }
-  .article-slide .article-next, .article-slide .article-prev {
-    display: none;
-  }
-}
