@@ -167,29 +167,4 @@ article{
 
 // articleスワイパーここまで
 
-// ipad対応
-@media screen and (max-width: 960px){
-  .article-slide {
-    width: 640px;
-    .article-container {
-      width: 460px;
-      }
-  }
 
-}
-
-//  スマホ対応
-@media screen and (max-width: 480px){
-  .article-slide {
-    width: 220px;
-    .article-container {
-      width: 220px;
-      }
-
-    .article-next,.article-prev {
-      display: none;
-    }
-
-  }
-
-}
