@@ -8,6 +8,7 @@ article{
   font-family: "Verdana","メイリオ","Open sans","sans-serif";
   font-size: 14px;
   color: #fff;
+  margin: 0;
   padding-bottom: 20px;
 
   button {
@@ -34,7 +35,7 @@ article{
   position: relative;
 
   .article-container {
-      width: 940px;
+      width: 931px;
       height: 489px; 
       margin-bottom: 10px;
       padding-bottom: 30px;
@@ -46,6 +47,7 @@ article{
         height: 489px;
         font-size: 18px;
         background: #313131;
+        box-sizing: border-box;
 
         h2,h3,h4 {
           width: 220px;
@@ -62,6 +64,7 @@ article{
         img {
           width: 220px;
           height: 220px;
+          box-sizing: border-box;
         }
 
         h3 {
@@ -132,23 +135,11 @@ article{
          background-color: #930784;
        }
 
-
-
-
-
-
-
-
-
       }
     
     }
 
-
-
-    
   }
-
 
   .article-next,.article-prev {
     width: 32px;
@@ -177,3 +168,29 @@ article{
 
 // articleスワイパーここまで
 
+// ipad対応
+@media screen and (max-width: 960px){
+  .article-slide {
+    width: 640px;
+    .article-container {
+      width: 460px;
+      }
+  }
+
+}
+
+//  スマホ対応
+@media screen and (max-width: 480px){
+  .article-slide {
+    width: 220px;
+    .article-container {
+      width: 220px;
+      }
+
+    .article-next,.article-prev {
+      display: none;
+    }
+
+  }
+
+}
