@@ -1,8 +1,4 @@
 @charset "UTF-8";
-.header {
-  height: 1000px;
-}
-
 .header_wrapper {
   display: flex;
   justify-content: space-between;
@@ -53,6 +49,10 @@
   max-width: 100%;
   height: auto;
   margin-left: 35px;
+}
+
+.swiper-container .swiper-pagination {
+  display: none;
 }
 
 #nav-drawer {
@@ -142,7 +142,7 @@
   list-style: none;
   font-size: 15px;
   color: blanchedalmond;
-  margin-bottom: 20px;
+  margin: 20px 0px;
   border-bottom: solid #41b8b8;
 }
 

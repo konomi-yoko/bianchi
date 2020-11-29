@@ -1,6 +1,3 @@
-.header{
-    height: 1000px;
-}
 .header_wrapper{
     display: flex;
     justify-content:space-between;
@@ -43,6 +40,9 @@ img{
     height: auto;
     margin-left:35px;
     }
+.swiper-pagination{
+    display: none;
+}
  }
  
 //  ハンバーガーメニュー
@@ -113,7 +113,7 @@ img{
         list-style: none;
         font-size: 15px;
         color: blanchedalmond;
-        margin-bottom: 20px;
+        margin: 20px 0px;
         border-bottom: solid#41b8b8;
     }
   }
