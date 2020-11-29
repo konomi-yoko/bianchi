@@ -27,7 +27,6 @@ article{
       li {
         width: 220px;
         height: 489px;
-        text-align: center;
         font-size: 18px;
         background: #313131;
 
@@ -93,6 +92,26 @@ article{
           content: "";
           display: block;
           clear: both;
+       }
+
+       .article-race {
+         background-color: #576fb5;
+       }
+
+       .article-bikes {
+        background-color: #90c320;
+      }
+
+       .article-store {
+         background-color: #ff4500;
+       }
+
+       .article-event {
+         background-color: #e3017f;
+       }
+
+       .article-info {
+         background-color: #930784;
        }
 
 
