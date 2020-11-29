@@ -19,7 +19,7 @@
     width: 280px;
     height: 70px;
 }
-.menu ul{
+.manu ul{
     display: flex;
     font-size: 18px;
     list-style: none;
@@ -32,7 +32,7 @@ li{
     padding:2px;
 }
 }
-.slider-container{
+.swiper-container .main_pic{
     max-width: 100%;
     height: auto;
 img{
@@ -40,9 +40,9 @@ img{
     height: auto;
     margin-left:40px;
     }
-.swiper-pagination{
+.swiper-pagination .main_page{
     display: none;
-}
+} 
  }
  
 //  ハンバーガーメニュー
