@@ -22,6 +22,17 @@
         <img src="C:\xampp\htdocs\bianchi\img\header_ig_icon.jpg">
         <img src="C:\xampp\htdocs\bianchi\img\header_tw_icon.jpg">
         <img src="C:\xampp\htdocs\bianchi\img\header_yt_icon.jpg">
+        <p id="toggle" class="js-hamburger hamburger"><span></span></p>
+        <div id="drower-bg"></div>
+        <ul class="drower js-drower">
+          <li>BIKES</li>
+          <li>NEWS</li>
+          <li>BIANCHI ATHLETE</li>
+          <li>ABOUT BIANCHI</li>
+          <li>STORE</li>
+          <li>BIANCHI ONLINE STORE</li>
+          <li>USER</li>
+        </ul>
     </div>
     <div class="wrapper_onlinestore">
         <img src="C:\xampp\htdocs\bianchi\img\ec_store_bnr.jpg">
@@ -32,17 +43,17 @@
     <!-- header-navigationここから -->
     <div class="header_navigation">
     <ul>
-        <li>BIKES</li>
-        <li>NEWS</li>
-        <li>BIANCHI ATHLETE</li>
-        <li>ABOUT BISNCHI</li>
-        <li>STORE</li>
-        <li>BIANCHI ONLINE STORE</li>
-        <li>USER</li>
+        <li class="bikes">BIKES</li>
+        <li class="news">NEWS</li>
+        <li class="athlete">BIANCHI ATHLETE</li>
+        <li class="about">ABOUT BIANCHI</li>
+        <li class="store">STORE</li>
+        <li class="online">BIANCHI ONLINE STORE</li>
+        <li class="user">USER</li>
     </ul>
     </div>
     <!-- header-navigationここまで -->
-    <div class="swiper-container">
+    <div class="swiper-container" style="z-index: 0;">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="C:\xampp\htdocs\bianchi\img\00000018-01.jpg" alt=""></div>
           <div class="swiper-slide"><img src="C:\xampp\htdocs\bianchi\img\00000018-02.jpg" alt=""></div>
@@ -51,11 +62,12 @@
         </div>
         <div class="swiper-pagination"></div>
      </div>
-
     </div>
     </div>
     <!-- headerここまで -->
-  
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.7/js/swiper.min.js"></script>
     <script src="header.js"></script>
 </body>
