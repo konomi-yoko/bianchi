@@ -19,7 +19,7 @@
     width: 280px;
     height: 70px;
 }
-.header_navigation ul{
+.menu ul{
     display: flex;
     font-size: 18px;
     list-style: none;
@@ -32,7 +32,7 @@ li{
     padding:2px;
 }
 }
-.swiper-container{
+.slider-container{
     max-width: 100%;
     height: auto;
 img{
@@ -137,10 +137,10 @@ img{
     .wrapper_onlinestore img{
         width: 250px;
     }
-    .header_navigation ul{
+    .menu ul{
         height: 45px;
     }
-    .swiper-container{
+    .slider-container{
         img{
             margin-left: 0px;
         }
@@ -171,10 +171,10 @@ img{
         display:none;
         }
         }
-    .header_navigation{
+    .menu{
         display: none;
     }
-    .swiper-container{
+    .slider-container{
         widows: 375px;
         height: 200px;
         img{
