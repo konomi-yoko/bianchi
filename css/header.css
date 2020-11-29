@@ -32,7 +32,7 @@
   justify-content: space-around;
   background-color: cadetblue;
   font-weight: bold;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 10px 30px;
   height: 30px;
 }
 
@@ -40,19 +40,17 @@
   padding: 2px;
 }
 
-.swiper-container {
-  max-width: 100%;
+.main_pic {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.main_pic .main-pic-wrapper {
   height: auto;
 }
 
-.swiper-container img {
-  max-width: 100%;
-  height: auto;
-  margin-left: 40px;
-}
-
-.swiper-container .swiper-pagination {
-  display: none;
+.main_pic img {
+  width: 100%;
 }
 
 #nav-drawer {
