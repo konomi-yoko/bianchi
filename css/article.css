@@ -61,11 +61,6 @@ article button {
 .article-slide .article-container ul li img {
   width: 220px;
   height: 220px;
-<<<<<<< HEAD
-  box-sizing: border-box;
-=======
-  margin-left: 0px;
->>>>>>> ddb4b35248e3eed106163502b095161722d33648
 }
 
 .article-slide .article-container ul li h3 {
