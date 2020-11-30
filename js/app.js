@@ -98,28 +98,27 @@ $(function(){
 //     });
 
     // articleスワイパー
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      // init: false,
-      navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      breakpoints: {
-        // '@0.00': {
-        480: {
-          slidesPerView: 2,
-          spaceBetween: 20,
+    var artswiper = new Swiper('.article-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        // init: false,
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
         },
-
-        960: {
-          slidesPerView: 4,
-          spaceBetween: 17,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
         },
-      }
-    });
+        breakpoints: {
+          480: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+  
+          960: {
+            slidesPerView: 4,
+            spaceBetween: 17,
+          },
+        }
+      });
